@@ -6,6 +6,7 @@
 
 //typeof(null) is object
 
+
 const bigNumber=2243422342333431n  //putting n makes it bigInt
 
 console.log(typeof bigNumber)
@@ -32,3 +33,12 @@ let add2=(a,b)=>{
 }
 console.log(add1(2,4))
 console.log(add2(2,4))
+
+//############################################
+/*
+stack memory - copy is passed (primitive values)
+ex- int or string values
+
+heap memory - reference is passed (non-primitive values) 
+ex- in case of objects
+*/
